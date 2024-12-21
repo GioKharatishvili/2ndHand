@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.logo {
+  max-height: 50px;
+  transform: scale(1.5);
+}
+
+.logo:hover {
+  opacity: 0.8;
+}
+
+.vh-90 {
+  height: 90vh;
+}
+
+.link-hov:hover {
+  opacity: 0.8;
+}
+
+.profile-icon {
+  transform: scale(1.5);
+}
+
+.about p {
+  font-weight: 400;
+}
+
+.sidebar span {
+  cursor: pointer;
+}
+
+.carousel-item {
+  max-height: 450px;
+}
+
+.fa-star {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  transform: scale(1.5);
+  cursor: pointer;
+  z-index: 999;
+}
+
+.fa-star:hover {
+  opacity: 0.8;
+}
